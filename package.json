@@ -1,0 +1,20 @@
+{
+    "name": "articles-api",
+    "version": "1.0.0",
+    "description": "API REST d'articles et d'auteurs pour la formation Angular 22",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "start:secure": "node src/server.js --secure",
+        "test": "node --test"
+    },
+    "engines": {
+        "node": ">=22"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.1.0"
+    }
+}
